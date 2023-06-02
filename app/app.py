@@ -28,3 +28,5 @@ fig, ax = plt.subplots()
 ax.hist(head_df["first column"])
 
 st.pyplot(fig)
+
+st.write(st.secrets['spell'])
